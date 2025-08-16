@@ -39,7 +39,7 @@ function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
 ProjectCard.propTypes = {
   imgSrc: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  tags: PropTypes.string.isRequired,
+  tags: PropTypes.arrayOf(PropTypes.string).isRequired, // ✅ FIXED
   projectLink: PropTypes.string,
   classes: PropTypes.string,
 };

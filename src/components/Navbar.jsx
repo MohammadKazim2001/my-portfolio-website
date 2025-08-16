@@ -2,24 +2,36 @@ import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 
 function Navbar({ navOpen }) {
-  const lastActiveLink = useRef(null); // Create a single reference
-  const activeBox = useRef(null); // Create a single reference
+  const lastActiveLink = useRef(null);
+  const activeBox = useRef(null);
 
   const initActiveBox = () => {
+    if (!activeBox.current || !lastActiveLink.current) return; // ✅ guard
     activeBox.current.style.top = lastActiveLink.current.offsetTop + "px";
     activeBox.current.style.left = lastActiveLink.current.offsetLeft + "px";
     activeBox.current.style.width = lastActiveLink.current.offsetWidth + "px";
     activeBox.current.style.height = lastActiveLink.current.offsetHeight + "px";
   };
 
-  useEffect(initActiveBox, []);
-  window.addEventListener("resize", initActiveBox);
+  useEffect(() => {
+    // Run once after DOM is painted
+    initActiveBox();
+
+    // Add resize listener
+    window.addEventListener("resize", initActiveBox);
+
+    // Cleanup listener on unmount
+    return () => {
+      window.removeEventListener("resize", initActiveBox);
+    };
+  }, []);
 
   const activeCurrentLink = (event) => {
     lastActiveLink.current?.classList.remove("active");
     event.target.classList.add("active");
     lastActiveLink.current = event.target;
 
+    if (!activeBox.current) return;
     activeBox.current.style.top = event.target.offsetTop + "px";
     activeBox.current.style.left = event.target.offsetLeft + "px";
     activeBox.current.style.width = event.target.offsetWidth + "px";
@@ -38,12 +50,11 @@ function Navbar({ navOpen }) {
 
   return (
     <nav className={`navbar ${navOpen ? "active" : ""}`}>
-      {/* className={`navbar ${navOpen ? "active" : ""}`} */}
       {navItems.map(({ label, link, className }, key) => (
         <a
           href={link}
           key={key}
-          ref={key == 0 ? lastActiveLink : null} // Assign ref only to the first item
+          ref={key === 0 ? lastActiveLink : null} // ✅ first link gets ref
           className={className}
           onClick={activeCurrentLink}
         >
@@ -55,7 +66,8 @@ function Navbar({ navOpen }) {
   );
 }
 
-Navbar.prototype = {
+Navbar.propTypes = {
+  // ✅ fixed typo
   navOpen: PropTypes.bool.isRequired,
 };
 

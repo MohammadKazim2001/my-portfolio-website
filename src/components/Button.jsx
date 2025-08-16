@@ -1,8 +1,5 @@
 import PropTypes from "prop-types";
 
-/**
- * Primary Button
- */
 const ButtonPrimary = ({
   href,
   target,

@@ -11,7 +11,7 @@ function Header() {
 "
       >
         <h1>
-          <a href="/" className="logo">
+          <a href="#home" className="logo">
             <img src="/images/logo3.png" width={40} height={40} alt="Logo" />
           </a>
         </h1>

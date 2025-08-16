@@ -11,7 +11,7 @@ function Hero() {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/images/img.png"
+                src="/images/avatar-small.jpg"
                 className="img-cover"
                 width={40}
                 height={40}
@@ -27,14 +27,15 @@ function Hero() {
           </div>
 
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-8">
-            Building Scalable Modern Websites for the Future
+            Building Scalable Modern Websites, Creating fast, scalable, and
+            user-friendly web solutions.
           </h2>
           <div className="flex items-center gap-3">
             <ButtonPrimary
               label="Download CV"
               icon="download"
               href="/documents/kazim_amiri_cv.pdf"
-              download="kazim_amiri_cv.pdf"
+              download
             />
 
             <ButtonOutline
