@@ -1,3 +1,5 @@
+import { useEffect, useRef } from "react";
+
 const socialLinks = [
   {
     href: "https://github.com/MohammadKazim2001",
@@ -74,6 +76,14 @@ const socialLinks = [
 ];
 
 function Contact() {
+  const formRef = useRef();
+
+  // Clear form fields when component mounts
+  useEffect(() => {
+    if (formRef.current) {
+      formRef.current.reset();
+    }
+  }, []);
   return (
     <section className="section" id="contact">
       <div className="container lg:grid lg:grid-cols-2">
@@ -102,6 +112,7 @@ function Contact() {
         </div>
 
         <form
+          ref={formRef}
           action="https://getform.io/f/akkkomla"
           method="POST"
           className="xl:pl-10 2xl:pl-20"
