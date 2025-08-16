@@ -9,9 +9,9 @@ const works = [
   },
   {
     imgSrc: "/pro-img/p-1.png",
-    title: "React movies list",
+    title: "Film Finder",
     tags: ["React.js", "API", "Tailwind CSS"],
-    projectLink: "#",
+    projectLink: "https://film-finder-black.vercel.app/",
   },
 
   {
