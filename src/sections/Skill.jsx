@@ -46,21 +46,21 @@ const skillItem = [
     label: "React JS",
     desc: "Javascript Framework",
   },
-  // {
-  //   imgSrc: "/images/expressjs.svg",
-  //   label: "ExpressJS",
-  //   desc: "Node Framework",
-  // },
-  // {
-  //   imgSrc: "/images/mongodb.svg",
-  //   label: "MongoDB",
-  //   desc: "Database",
-  // },
-  // {
-  //   imgSrc: "/images/nodejs.svg",
-  //   label: "NodeJS",
-  //   desc: "Web Server",
-  // },
+  {
+    imgSrc: "/images/expressjs.svg",
+    label: "ExpressJS",
+    desc: "Node Framework",
+  },
+  {
+    imgSrc: "/images/mongodb.svg",
+    label: "MongoDB",
+    desc: "Database",
+  },
+  {
+    imgSrc: "/images/nodejs.svg",
+    label: "NodeJS",
+    desc: "Web Server",
+  },
 ];
 
 function Skill() {
