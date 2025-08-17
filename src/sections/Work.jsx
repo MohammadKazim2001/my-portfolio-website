@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 
 const works = [
   {
-    imgSrc: "/pro-img/p-2.png",
+    imgSrc: "/pro-img/p1-1.jpg",
     title: "Online classified market place for second hand items",
     tags: ["LARAVEL", "REACT", "Tailwind CSS"],
     projectLink: "https://pixstock-official.vercel.app/",
