@@ -7,6 +7,7 @@ const experiences = [
     company: "Online Classifieds marketplace Web App for second hand items",
     period: "Jan 2024 - Present",
     description: [
+      "Completely dynamic database structure with Laravel 12 and MySQL, that can be easily extended for future features.",
       "User authentication, ad posting, and real-time chat.",
       "Real-time chat system (Laravel WebSockets) for seamless buyer-seller communication, reducing response time by 50%.",
       "Responsive UI with Tailwind CSS for mobile-first design.",

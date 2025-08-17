@@ -4,20 +4,20 @@ const works = [
   {
     imgSrc: "/pro-img/p1-1.jpg",
     title: "Online classified market place for second hand items",
-    tags: ["LARAVEL", "REACT", "Tailwind CSS"],
+    tags: ["LARAVEL", "REACT", "TAILWIND CSS"],
     projectLink: "https://pixstock-official.vercel.app/",
   },
   {
     imgSrc: "/pro-img/p-1.png",
     title: "Film Finder",
-    tags: ["React.js", "API", "Tailwind CSS"],
+    tags: ["REACT JS", "API", "TAILWIND CSS"],
     projectLink: "https://film-finder-black.vercel.app/",
   },
 
   {
     imgSrc: "/images/project-3.jpg",
     title: "Recipe app",
-    tags: ["Development", "API"],
+    tags: ["REACT JS", "API"],
     projectLink: "",
   },
 ];
