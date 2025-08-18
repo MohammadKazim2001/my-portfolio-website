@@ -5,7 +5,7 @@ const works = [
     imgSrc: "/pro-img/p1-1.jpg",
     title: "Online classified market place for second hand items",
     tags: ["LARAVEL", "REACT", "TAILWIND CSS"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    projectLink: "#",
   },
   {
     imgSrc: "/pro-img/p-1.png",
@@ -18,7 +18,7 @@ const works = [
     imgSrc: "/images/project-3.jpg",
     title: "Recipe app",
     tags: ["REACT JS", "API"],
-    projectLink: "",
+    projectLink: "#",
   },
 ];
 
