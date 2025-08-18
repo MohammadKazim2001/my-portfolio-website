@@ -1,9 +1,114 @@
 import SkillCard from "../components/SkillCard";
 
 const skillItem = [
+  // {
+  //   imgSrc: "/images/html.svg",
+  //   label: "HTML",
+  //   desc: "User Interface",
+  // },
+  // {
+  //   imgSrc: "/images/css3.svg",
+  //   label: "CSS",
+  //   desc: "User Interface",
+  // },
+  // {
+  //   imgSrc: "/images/bootstrap.svg",
+  //   label: "Bootstrap",
+  //   desc: "User Interface",
+  // },
+  // {
+  //   imgSrc: "/images/javascript.svg",
+  //   label: "JavaScript",
+  //   desc: "Interaction",
+  // },
+  // {
+  //   imgSrc: "/images/php.svg",
+  //   label: "PHP",
+  //   desc: "Programming language",
+  // },
+  // {
+  //   imgSrc: "/images/laravel.svg",
+  //   label: "Laravel",
+  //   desc: "Backend developement",
+  // },
+  // {
+  //   imgSrc: "/images/mysql.svg",
+  //   label: "MySQL",
+  //   desc: "Database management system",
+  // },
+  // {
+  //   imgSrc: "/images/tailwindcss.svg",
+  //   label: "TailwindCSS",
+  //   desc: "User Interface",
+  // },
+  // {
+  //   imgSrc: "/images/react.svg",
+  //   label: "React JS",
+  //   desc: "Javascript Framework",
+  // },
+  // {
+  //   imgSrc: "/images/expressjs.svg",
+  //   label: "ExpressJS",
+  //   desc: "Node Framework",
+  // },
+  // {
+  //   imgSrc: "/images/mongodb.svg",
+  //   label: "MongoDB",
+  //   desc: "Database",
+  // },
+  // {
+  //   imgSrc: "/images/nodejs.svg",
+  //   label: "NodeJS",
+  //   desc: "Web Server",
+  // },
   {
-    imgSrc: "/images/html.svg",
-    label: "HTML",
+    imgSrc: "/images/nodejs.svg",
+    label: "NodeJS",
+    desc: "Web Server",
+  },
+  {
+    imgSrc: "/images/mongodb.svg",
+    label: "MongoDB",
+    desc: "Database",
+  },
+  {
+    imgSrc: "/images/expressjs.svg",
+    label: "ExpressJS",
+    desc: "Node Framework",
+  },
+  {
+    imgSrc: "/images/react.svg",
+    label: "React JS",
+    desc: "Javascript Framework",
+  },
+  {
+    imgSrc: "/images/tailwindcss.svg",
+    label: "TailwindCSS",
+    desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/mysql.svg",
+    label: "MySQL",
+    desc: "Database management system",
+  },
+  {
+    imgSrc: "/images/laravel.svg",
+    label: "Laravel",
+    desc: "Backend developement",
+  },
+  {
+    imgSrc: "/images/php.svg",
+    label: "PHP",
+    desc: "Programming language",
+  },
+  {
+    imgSrc: "/images/javascript.svg",
+    label: "JavaScript",
+    desc: "Interaction",
+  },
+  {
+    imgSrc: "/images/bootstrap.svg",
+    label: "Bootstrap",
     desc: "User Interface",
   },
   {
@@ -12,54 +117,9 @@ const skillItem = [
     desc: "User Interface",
   },
   {
-    imgSrc: "/images/bootstrap.svg",
-    label: "Bootstrap",
+    imgSrc: "/images/html.svg",
+    label: "HTML",
     desc: "User Interface",
-  },
-  {
-    imgSrc: "/images/javascript.svg",
-    label: "JavaScript",
-    desc: "Interaction",
-  },
-  {
-    imgSrc: "/images/php.svg",
-    label: "PHP",
-    desc: "Programming language",
-  },
-  {
-    imgSrc: "/images/laravel.svg",
-    label: "Laravel",
-    desc: "Backend developement",
-  },
-  {
-    imgSrc: "/images/mysql.svg",
-    label: "MySQL",
-    desc: "Database management system",
-  },
-  {
-    imgSrc: "/images/tailwindcss.svg",
-    label: "TailwindCSS",
-    desc: "User Interface",
-  },
-  {
-    imgSrc: "/images/react.svg",
-    label: "React JS",
-    desc: "Javascript Framework",
-  },
-  {
-    imgSrc: "/images/expressjs.svg",
-    label: "ExpressJS",
-    desc: "Node Framework",
-  },
-  {
-    imgSrc: "/images/mongodb.svg",
-    label: "MongoDB",
-    desc: "Database",
-  },
-  {
-    imgSrc: "/images/nodejs.svg",
-    label: "NodeJS",
-    desc: "Web Server",
   },
 ];
 

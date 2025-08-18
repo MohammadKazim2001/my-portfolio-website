@@ -1,15 +1,30 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Navbar from "../components/Navbar";
 
 function Header() {
   const [navOpen, setNavOpen] = useState(false);
+  const headerRef = useRef(null);
+
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (headerRef.current && !headerRef.current.contains(event.target)) {
+        setNavOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
-    <header className="fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0">
-      <div
-        className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-[1fr_2fr_1fr]
-"
-      >
+    <header
+      ref={headerRef}
+      className="fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0"
+    >
+      <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-[1fr_2fr_1fr]">
         <h1>
           <a href="#home" className="logo">
             <img src="/images/logo3.png" width={40} height={40} alt="Logo" />
@@ -25,7 +40,7 @@ function Header() {
               {navOpen ? "close" : "menu"}
             </span>
           </button>
-          <Navbar navOpen={navOpen} />
+          <Navbar navOpen={navOpen} setNavOpen={setNavOpen} />
         </div>
         <a
           href="#contact"
