@@ -39,7 +39,7 @@ const ParticlesBackground = () => {
 
     function initParticles() {
       particles = [];
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 20; i++) {
         let size = Math.random() * 3 + 1;
         let x = Math.random() * canvas.width;
         let y = Math.random() * canvas.height;
