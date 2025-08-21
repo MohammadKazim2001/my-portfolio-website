@@ -1,8 +1,6 @@
 import { ButtonPrimary, ButtonOutline } from "../components/Button";
 
 function Hero() {
-  // Function to handle CV download
-
   return (
     <section id="home" className="pt-28 lg:pt36">
       <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
@@ -34,7 +32,7 @@ function Hero() {
             <ButtonPrimary
               label="Download CV"
               icon="download"
-              href="/documents/kazim_amiri_cv.pdf"
+              href="/documents/kazim_amiri_cv2.pdf"
               download
             />
 
