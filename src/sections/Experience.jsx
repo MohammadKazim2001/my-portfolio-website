@@ -9,7 +9,7 @@ const experiences = [
     description: [
       "Completely dynamic database structure with Laravel 12 and MySQL, that can be easily extended for future features.",
       "User authentication, ad posting, and real-time chat.",
-      "Real-time chat system (Laravel WebSockets) for seamless buyer-seller communication, reducing response time by 50%.",
+      "Real-time chat system (Laravel WebSockets) for seamless buyer-seller communication.",
       "Responsive UI with Tailwind CSS for mobile-first design.",
       "RESTful API integration with Laravel backend for secure data handling.",
       "Optimizing performance, achieving ~2s page load times via code-splitting and caching.",
