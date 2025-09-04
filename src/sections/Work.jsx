@@ -4,8 +4,8 @@ const works = [
   {
     imgSrc: "/pro-img/p-5.png",
     title: "Online classified market place for second hand items",
-    tags: ["LARAVEL 12", "REACT JS", "TAILWIND CSS"],
-    projectLink: "",
+    tags: ["LARAVEL 12", "API", "REACT JS", "TAILWIND CSS"],
+    projectLink: "#",
   },
   {
     imgSrc: "/pro-img/p-1.png",
@@ -13,7 +13,6 @@ const works = [
     tags: ["REACT JS", "API", "TAILWIND CSS"],
     projectLink: "https://film-finder-black.vercel.app/",
   },
-
   {
     imgSrc: "/pro-img/p-4.png",
     title: "MERN e-commerce website",
