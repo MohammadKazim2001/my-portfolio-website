@@ -2,9 +2,9 @@ import ProjectCard from "../components/ProjectCard";
 
 const works = [
   {
-    imgSrc: "/pro-img/p1-1.jpg",
+    imgSrc: "/pro-img/p-5.png",
     title: "Online classified market place for second hand items",
-    tags: ["LARAVEL", "REACT", "TAILWIND CSS"],
+    tags: ["LARAVEL 12", "REACT JS", "TAILWIND CSS"],
     projectLink: "",
   },
   {
@@ -15,10 +15,10 @@ const works = [
   },
 
   {
-    imgSrc: "/images/project-3.jpg",
-    title: "Recipe app",
-    tags: ["REACT JS", "API"],
-    projectLink: "",
+    imgSrc: "/pro-img/p-4.png",
+    title: "MERN e-commerce website",
+    tags: ["REACT JS", "NODE JS", "EXPRESS JS", "MONGO DB", "API"],
+    projectLink: "https://mern-ecommerce-b7xo.vercel.app/",
   },
 ];
 
