@@ -16,7 +16,7 @@ const reviews = [
     content:
       "Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
     name: "Dost Mohammad Fahimi",
-    imgSrc: "/users/musa.jpg",
+    imgSrc: "/users/dost1.jpg",
     company: "Kabul Polytichnec University",
   },
   {
@@ -29,15 +29,15 @@ const reviews = [
   {
     content:
       "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
-    name: "Sayed Taqi",
+    name: "Sayed Taqi Ahmadi",
     imgSrc: "/users/taqi.jpg",
     company: "CodeHub",
   },
   {
     content:
       "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
-    name: "Sayed Shah Musa",
-    imgSrc: "/users/dost1.jpg",
+    name: "Sayed Shah Musa Ahmadian",
+    imgSrc: "/users/musa.jpg",
     company: "Kabul Polytichnec University",
   },
 ];
