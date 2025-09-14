@@ -3,7 +3,7 @@ const education = [
     degree:
       "Bachelor of Science in Computer Science(Information Systems Department)",
     institution: "Kabul Polytechnic University",
-    period: "2021 - Present",
+    period: "Mar 2021 - Sep 2025",
     description:
       "Focused on software development, web technologies, and databases.",
   },

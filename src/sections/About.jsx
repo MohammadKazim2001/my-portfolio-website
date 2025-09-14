@@ -15,15 +15,18 @@ function About() {
       <div className="container">
         <div className="bg-zinc-800/50 ring-inset ring-2 ring-zinc-50/10 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-lg md:max-w-[60ch]">
-            Welcome! I&apos;m Mohammad Kazim Amiri,a Creative and
-            detail-oriented Web Developer with a strong foundation in HTML, CSS,
-            JavaScript, Bootstrap, Tailwind CSS, and React.js for frontend
-            development, and PHP/Laravel, Node js, express js and mongo DB for
-            backend solutions. Dedicated to crafting responsive, intuitive, and
-            visually appealing websites and applications that deliver real value
-            to users. Eager to apply technical expertise and a problem-solving
-            mindset to build innovative digital experiences that make a positive
-            impact.
+            Welcome! I&apos;m Mohammad Kazim Amiri, a creative and
+            detail-oriented Web Developer specializing in modern frontend
+            development with React.js and Tailwind CSS, and robust backend
+            solutions using PHP/Laravel, Node.js, Express.js, and MongoDB. I’m
+            passionate about building responsive, intuitive, and visually
+            engaging web applications that provide real value to users. With a
+            solid foundation in HTML, CSS, JavaScript, and Bootstrap, along with
+            strong skills in Git and GitHub for efficient version control and
+            collaboration, I continuously refine my abilities to craft
+            innovative digital experiences. Eager to apply my expertise,
+            problem-solving mindset, and creativity to develop impactful
+            solutions.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (
