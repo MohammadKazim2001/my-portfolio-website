@@ -16,8 +16,16 @@ const works = [
   {
     imgSrc: "/pro-img/p-4.png",
     title: "MERN e-commerce website",
-    tags: ["REACT JS", "NODE JS", "EXPRESS JS", "MONGO DB", "API"],
-    projectLink: "https://mern-ecommerce-b7xo.vercel.app/",
+    tags: [
+      "REACT JS",
+      "TAILWIND CSS",
+      "NODE JS",
+      "EXPRESS JS",
+      "MONGO DB",
+      "API",
+    ],
+    // projectLink: "https://mern-ecommerce-b7xo.vercel.app/",
+    projectLink: "#",
   },
 ];
 

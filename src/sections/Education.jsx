@@ -2,20 +2,20 @@ const education = [
   {
     degree:
       "Bachelor of Science in Computer Science(Information Systems Department)",
-    institution: "Kabul Polytechnic University",
+    institution: "Kabul Polytechnic University | Kabul, Afghanistan",
     period: "Mar 2021 - Sep 2025",
     description:
       "Focused on software development, web technologies, and databases.",
   },
   {
     degree: "High School Diploma (General Education)",
-    institution: "Qala-e-Shahada High School",
+    institution: "Qala-e-Shahada High School | Ghazni, Afghanistan",
     period: "2008 - 2020",
     description: "Completed the high school leasons.",
   },
   {
     degree: "English Language Certification",
-    institution: "Ayandagan English Language Center",
+    institution: "Ayandagan English Language Center | Ghazni, Afghanistan",
     period: "2014 - 2017",
     description:
       "Completed an advanced course in English writing and communication.",
