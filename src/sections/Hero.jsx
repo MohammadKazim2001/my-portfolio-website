@@ -35,7 +35,6 @@ function Hero() {
               href="/documents/kazim_amiri_cv.pdf"
               download
             />
-            j
             <ButtonOutline
               href="#about"
               label="Scroll down"

@@ -39,7 +39,6 @@ function About() {
                     +
                   </span>
                 </div>
-
                 <p className="text-zinc-400 text-sm">{label}</p>
               </div>
             ))}
