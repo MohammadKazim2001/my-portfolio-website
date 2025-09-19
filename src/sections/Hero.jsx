@@ -9,7 +9,7 @@ function Hero() {
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
-                src="/images/avatar-small.jpg"
+                src="/images/avatar-small2.jpg"
                 className="img-cover"
                 width={40}
                 height={40}
@@ -35,7 +35,7 @@ function Hero() {
               href="/documents/kazim_amiri_cv.pdf"
               download
             />
-
+            j
             <ButtonOutline
               href="#about"
               label="Scroll down"

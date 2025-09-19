@@ -15,18 +15,18 @@ function About() {
       <div className="container">
         <div className="bg-zinc-800/50 ring-inset ring-2 ring-zinc-50/10 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-lg md:max-w-[60ch]">
-            Welcome! I&apos;m Mohammad Kazim Amiri, a creative and
-            detail-oriented Web Developer specializing in modern frontend
-            development with React.js and Tailwind CSS, and robust backend
-            solutions using PHP/Laravel, Node.js, Express.js, and MongoDB. I’m
-            passionate about building responsive, intuitive, and visually
-            engaging web applications that provide real value to users. With a
-            solid foundation in HTML, CSS, JavaScript, and Bootstrap, along with
-            strong skills in Git and GitHub for efficient version control and
-            collaboration, I continuously refine my abilities to craft
-            innovative digital experiences. Eager to apply my expertise,
-            problem-solving mindset, and creativity to develop impactful
-            solutions.
+            Welcome! I&apos;m Mohammad Kazim Amiri, a and passionate Web
+            Developer with hands-on experience in modern frontend technologies —
+            including React.js, TypeScript, and Tailwind CSS — and backend
+            development using Node.js, Express.js, MongoDB, and PHP/Laravel.
+            Eager to contribute to real-world projects, I bring strong
+            problem-solving skills, attention to detail, and a collaborative
+            mindset. Proficient in Git/GitHub and familiar with Agile/Scrum
+            workflows, I’m excited to learn from experienced developers, grow
+            through mentorship, and help build scalable, user-focused
+            applications. Fluent in English and Dari/Pashto, I’m ready to bring
+            energy, curiosity, and technical skill to your development team —
+            whether you’re a startup, agency, or enterprise.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (
