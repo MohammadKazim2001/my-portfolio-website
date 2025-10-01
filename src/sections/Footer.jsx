@@ -115,9 +115,9 @@ function Footer() {
             <img src="/images/logo3.png" width={40} height={40} alt="logo" />
           </a>
 
-          <p className="text-zinc-500 text-sm reveal-up mb-12">
+          <p className="text-zinc-500 md:text-sm text-xs reveal-up mb-12">
             &copy; 2025{" "}
-            <span className="text-zinc-200">Mohammad Kazim Amiri</span>
+            <span className="text-sky-400">Mohammad Kazim Amiri</span>
           </p>
         </div>
       </div>

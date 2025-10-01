@@ -61,6 +61,17 @@ const skillItem = [
   //   label: "NodeJS",
   //   desc: "Web Server",
   // },
+
+  {
+    imgSrc: "/images/react.svg",
+    label: "React JS",
+    desc: "Javascript Framework",
+  },
+  {
+    imgSrc: "/images/expressjs.svg",
+    label: "ExpressJS",
+    desc: "Node Framework",
+  },
   {
     imgSrc: "/images/nodejs.svg",
     label: "NodeJS",
@@ -71,16 +82,7 @@ const skillItem = [
     label: "MongoDB",
     desc: "Database",
   },
-  {
-    imgSrc: "/images/expressjs.svg",
-    label: "ExpressJS",
-    desc: "Node Framework",
-  },
-  {
-    imgSrc: "/images/react.svg",
-    label: "React JS",
-    desc: "Javascript Framework",
-  },
+
   {
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
@@ -89,7 +91,7 @@ const skillItem = [
   {
     imgSrc: "/images/mysql.svg",
     label: "MySQL",
-    desc: "Database management system",
+    desc: "MIS",
   },
   {
     imgSrc: "/images/laravel.svg",
