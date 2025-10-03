@@ -112,7 +112,8 @@ function Footer() {
 
         <div className="flex items-center justify-between mt-10">
           <a href="#home" className="logo reveal-up mb-12">
-            <img src="/images/logo3.png" width={40} height={40} alt="logo" />
+            {/* <img src="/images/logo3.png" width={40} height={40} alt="logo" /> */}
+            <img src="/images/logo3.png" className="md:h-10 h-8" alt="logo" />
           </a>
 
           <p className="text-zinc-500 md:text-sm text-xs reveal-up mb-12">
