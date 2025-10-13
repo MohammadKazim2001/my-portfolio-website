@@ -104,7 +104,7 @@ function Contact() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80 reveal-up"
+                className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80 reveal-up  hover:shadow-lg hover:shadow-gray-500 duration-300"
               >
                 {icon}
               </a>

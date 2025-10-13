@@ -88,7 +88,7 @@ function ExperienceCard({ exp }) {
       : 2; // mobile collapsed
 
   return (
-    <div className="text-white rounded-lg shadow p-6 ring-inset ring-1 ring-zinc-50/10 cursor-pointer bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60  transition-colors">
+    <div className="text-white rounded-lg shadow p-6 ring-inset ring-1 ring-zinc-50/10 cursor-pointer bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 hover:shadow-md hover:shadow-cyan-500 duration-300">
       <h3 className="text-xl font-semibold">{exp.title}</h3>
       <p className="text-sm text-gray-100">
         {exp.company} {exp.period && `| ${exp.period}`}

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
   return (
     <div
-      className={`relative p-2 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors ${classes}`}
+      className={`relative p-2 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 hover:shadow-md hover:shadow-cyan-500 duration-300 ${classes}`}
     >
       <figure className="img-box aspect-square rounded-lg mb-4">
         <img src={imgSrc} alt={title} loading="lazy" className="img-cover" />

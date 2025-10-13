@@ -7,6 +7,7 @@ function Navbar({ navOpen, setNavOpen }) {
   const navItems = [
     { label: "Home", link: "#home", className: "nav-link" },
     { label: "About", link: "#about", className: "nav-link" },
+    { label: "Skills", link: "#skill", className: "nav-link" },
     { label: "Work", link: "#work", className: "nav-link" },
     { label: "Education", link: "#education", className: "nav-link" },
     { label: "Experience", link: "#experience", className: "nav-link" },

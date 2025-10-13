@@ -13,7 +13,7 @@ function About() {
   return (
     <section id="about" className="section">
       <div className="container">
-        <div className="bg-zinc-800/50 ring-inset ring-2 ring-zinc-50/10 p-7 rounded-2xl md:p-12 reveal-up">
+        <div className="bg-zinc-800/50 ring-inset ring-2 ring-zinc-50/10 p-7 rounded-2xl md:p-12 reveal-up hover:shadow-md hover:shadow-cyan-500 duration-300">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-lg md:max-w-[60ch]">
             Welcome! I&apos;m{" "}
             <span className="text-sky-500">Mohammad Kazim Amiri</span>, a
