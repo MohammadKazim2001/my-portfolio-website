@@ -8,7 +8,7 @@ ratings.fill({
 
 const ReviewCard = ({ content, name, imgSrc, company }) => {
   return (
-    <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] ring-inset ring-1 ring-zinc-50/10 flex flex-col lg:min-w-[420px]">
+    <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] mb-2 ring-inset ring-1 ring-zinc-50/10 flex flex-col lg:min-w-[420px] hover:shadow-md hover:shadow-cyan-500 duration-300">
       <div className="flex items-center gap-1 mb-3">
         {ratings.map(({ icon, style }, key) => (
           <span

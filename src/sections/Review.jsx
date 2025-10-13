@@ -14,31 +14,31 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 const reviews = [
   {
     content:
-      "Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
+      "Excellent web development! Delivered a modern, responsive site with clean design and optimized performance.",
     name: "Dost Mohammad Fahimi",
     imgSrc: "/users/dost1.jpg",
-    company: "Kabul Polytichnec University",
+    company: "Kabul Polytechnic University",
   },
   {
     content:
-      "Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.",
+      "Fantastic developer! Created a high-quality website with smooth functionality and efficient coding practices.",
     name: "Anwar Hussaini",
     imgSrc: "/users/anwar.jpg",
     company: "Freelancer",
   },
   {
     content:
-      "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
+      "Superb work! Fast, reliable, and visually appealing site with strong backend logic and great attention to detail.",
     name: "Sayed Taqi Ahmadi",
     imgSrc: "/users/taqi.jpg",
     company: "CodeHub",
   },
   {
     content:
-      "Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
+      "Outstanding result! Delivered a fully responsive website with intuitive design and seamless user experience.",
     name: "Sayed Shah Musa Ahmadian",
     imgSrc: "/users/musa.jpg",
-    company: "Kabul Polytichnec University",
+    company: "Kabul Polytechnic University",
   },
 ];
 
