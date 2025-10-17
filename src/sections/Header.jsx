@@ -44,7 +44,7 @@ function Header() {
         </div>
         <a
           href="#contact"
-          className="btn btn-secondary btn max-md:!hidden md:justify-self-end"
+          className="btn btn-secondary btn hover:shadow-md hover:shadow-zinc-400 max-md:!hidden md:justify-self-end duration-500"
         >
           Contact Me
         </a>
