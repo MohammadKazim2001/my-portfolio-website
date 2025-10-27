@@ -112,7 +112,7 @@ body {
 }
 
 .btn-primary {
-  @apply h-11 bg-sky-400 cursor-pointer text-zinc-950 hover:bg-sky-500 active:bg-sky-400 hover:shadow-md hover:shadow-sky-500 duration-300;
+  @apply h-11 bg-sky-500 cursor-pointer text-zinc-950 hover:bg-sky-400 active:bg-sky-400 hover:shadow-md hover:shadow-sky-500 hover:border hover:border-sky-300 duration-300;
 }
 
 .btn-outline {
