@@ -2,6 +2,12 @@ import ProjectCard from "../components/ProjectCard";
 
 const works = [
   {
+    imgSrc: "/pro-img/p-6.png",
+    title: "Moud Danayee MIS | سیستم مدیریتی موعود دانایی",
+    tags: ["REACT JS", "NEST JS", "TYPESCRIPT", "TAILWIND CSS"],
+    projectLink: "#",
+  },
+  {
     imgSrc: "/pro-img/p-5.png",
     title: "Online classified market place for second hand items",
     tags: ["LARAVEL 12", "API", "REACT JS", "TAILWIND CSS"],

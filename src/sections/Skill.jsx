@@ -91,7 +91,12 @@ const skillItem = [
   {
     imgSrc: "/images/mysql.svg",
     label: "MySQL",
-    desc: "MIS",
+    desc: "DBMS",
+  },
+  {
+    imgSrc: "/images/logo-postgres.png",
+    label: "PostgreSQL",
+    desc: "DBMS",
   },
   {
     imgSrc: "/images/laravel.svg",
@@ -108,21 +113,21 @@ const skillItem = [
     label: "JavaScript",
     desc: "Interaction",
   },
-  {
-    imgSrc: "/images/bootstrap.svg",
-    label: "Bootstrap",
-    desc: "User Interface",
-  },
-  {
-    imgSrc: "/images/css3.svg",
-    label: "CSS",
-    desc: "User Interface",
-  },
-  {
-    imgSrc: "/images/html.svg",
-    label: "HTML",
-    desc: "User Interface",
-  },
+  // {
+  //   imgSrc: "/images/bootstrap.svg",
+  //   label: "Bootstrap",
+  //   desc: "User Interface",
+  // },
+  // {
+  //   imgSrc: "/images/css3.svg",
+  //   label: "CSS",
+  //   desc: "User Interface",
+  // },
+  // {
+  //   imgSrc: "/images/html.svg",
+  //   label: "HTML",
+  //   desc: "User Interface",
+  // },
 ];
 
 function Skill() {
