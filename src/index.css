@@ -34,7 +34,11 @@ body {
 /**********   Utilities   ***********/
 .material-symbols-rounded {
   @apply w-[1em] h-[1em] overflow-hidden;
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
 }
 
 .container {
@@ -96,7 +100,7 @@ body {
 /*   button  */
 .btn {
   @apply max-w-max h-9  flex items-center gap-2 px-4 rounded-xl font-medium
-  text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
+  text-sm text-white ring-1 ring-zinc-50/5 ring-inset transition-[background-color];
 }
 
 .btn-secondary {

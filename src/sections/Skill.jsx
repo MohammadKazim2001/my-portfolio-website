@@ -41,11 +41,7 @@ const skillItem = [
   //   label: "TailwindCSS",
   //   desc: "User Interface",
   // },
-  // {
-  //   imgSrc: "/images/react.svg",
-  //   label: "React JS",
-  //   desc: "Javascript Framework",
-  // },
+
   // {
   //   imgSrc: "/images/expressjs.svg",
   //   label: "ExpressJS",
@@ -66,6 +62,21 @@ const skillItem = [
     imgSrc: "/images/react.svg",
     label: "React JS",
     desc: "Javascript Framework",
+  },
+  {
+    imgSrc: "/images/NestJS.svg.png",
+    label: "Nest JS",
+    desc: "Express JS Framework",
+  },
+  {
+    imgSrc: "/images/Typescript.svg",
+    label: "TypeScript",
+    desc: "Typed JavaScript",
+  },
+  {
+    imgSrc: "/images/javascript.svg",
+    label: "JavaScript",
+    desc: "Interaction",
   },
   {
     imgSrc: "/images/expressjs.svg",
@@ -103,31 +114,6 @@ const skillItem = [
     label: "Laravel",
     desc: "Backend developement",
   },
-  {
-    imgSrc: "/images/php.svg",
-    label: "PHP",
-    desc: "Programming language",
-  },
-  {
-    imgSrc: "/images/javascript.svg",
-    label: "JavaScript",
-    desc: "Interaction",
-  },
-  // {
-  //   imgSrc: "/images/bootstrap.svg",
-  //   label: "Bootstrap",
-  //   desc: "User Interface",
-  // },
-  // {
-  //   imgSrc: "/images/css3.svg",
-  //   label: "CSS",
-  //   desc: "User Interface",
-  // },
-  // {
-  //   imgSrc: "/images/html.svg",
-  //   label: "HTML",
-  //   desc: "User Interface",
-  // },
 ];
 
 function Skill() {

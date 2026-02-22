@@ -54,8 +54,8 @@ ButtonPrimary.propTypes = {
   target: PropTypes.string,
   icon: PropTypes.string,
   classes: PropTypes.string,
-  onClick: PropTypes.func, // Add this
-  download: PropTypes.bool, // Add this
+  onClick: PropTypes.func,
+  download: PropTypes.bool,
 };
 
 /**

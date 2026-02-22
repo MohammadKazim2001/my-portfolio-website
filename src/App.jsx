@@ -59,20 +59,3 @@ function App() {
 }
 
 export default App;
-
-// <div className="relative bg-black">
-//   {" "}
-//   <ParticlesBackground />
-//   <Header />
-//   <main className="relative z-10">
-//     <Hero />
-//     <About />
-//     <Skill />
-//     <Work />
-//     <Education />
-//     <Experience />
-//     <Review />
-//     <Contact />
-//     <Footer />
-//   </main>
-// </div>
