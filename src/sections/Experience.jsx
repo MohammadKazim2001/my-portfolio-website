@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const experiences = [
   {
     title: "Front End & Automation Engineer",
-    company: "The Flame",
+    company: "The Flame App",
     period: "Apr 2026 - Present",
     location: "Dubai, UAE",
     workType: "Remote",
