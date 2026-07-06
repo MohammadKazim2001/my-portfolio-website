@@ -4,8 +4,28 @@ import { Link } from "react-router-dom";
 
 const experiences = [
   {
+    title: "Front End & Automation Engineer",
+    company: "The Flame",
+    period: "Apr 2026 - Present",
+    location: "Dubai, UAE",
+    workType: "Remote",
+    link: "https://theflame.life/",
+    description: [
+      "Designed and developed end-to-end automation testing framework using Playwright, Pytest, and Python for web application testing",
+      "Created reusable Page Object Model (POM) architecture with fixtures, utilities, and custom helpers to improve test maintainability",
+      "Automated critical user journeys including authentication, onboarding, profile management, subscriptions, referrals, and payment workflows",
+      "Integrated Allure Reports to generate detailed test execution reports with screenshots, logs, and failure diagnostics",
+      "Configured automated test execution in CI/CD pipelines, enabling continuous validation on every deployment",
+      "Implemented data-driven testing, cross-browser testing, and parallel execution to improve test coverage and execution speed",
+      "Collaborated closely with developers to identify, reproduce, and verify bug fixes before production releases",
+      "Implemented frontend features using React and JavaScript while ensuring high-quality releases through automated regression testing"
+    ],
+    tech: "Python, Playwright, Pytest, Allure Report, React, JavaScript, GitHub Actions"
+  },
+  {
     title: "Full Stack Developer",
     company: "Imperial Exclusive - E-commerce Payment System",
+    workType: "Contract",
     period: "Nov 2025 - Dec 2025",
     link: "https://impeerialexclusive.com/",
     description: [
@@ -21,6 +41,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company: "Mawoud Danaye Educational MIS",
+    workType: "Contract",
     period: "Oct 2025 - Dec 2025",
     description: [
       "Architected comprehensive educational management system using NestJS (backend) and React/TypeScript (frontend)",
@@ -33,8 +54,9 @@ const experiences = [
     tech: "NestJS, TypeORM, React, TypeScript, JWT, REST API, MySQL",
   },
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Project",
     company: "Afghan Local Marketplace (OLX-style Platform)",
+    workType: "Personal Project",
     period: "April 2025 - Aug 2025",
     description: [
       "Developed full-stack classifieds platform for Afghanistan using Laravel (API) and React (frontend)",
@@ -47,8 +69,9 @@ const experiences = [
     tech: "Laravel, React, MySQL, Tailwind CSS, REST API",
   },
   {
-    title: "Full Stack Developer",
+    title: "Full Stack Project",
     company: "E-commerce Platform (MERN + Redux)",
+    workType: "Personal Project",
     period: "Aug 2025 - Sep 2025",
     description: [
       "Built full-featured e-commerce platform using MERN stack with Redux for state management",
@@ -61,22 +84,9 @@ const experiences = [
     tech: "React, Node.js, Express, MongoDB, Redux, Tailwind CSS",
   },
   {
-    title: "Full Stack Developer",
-    company: "Personal Project: Management Information Systems (MIS) Course",
-    period: "Self-Directed Study | 2024",
-    description: [
-      "Completed intensive self-directed MIS course covering systems analysis, database design, and IT strategy",
-      "Designed relational database schemas using Entity-Relationship Diagrams (ERDs) and normalization",
-      "Developed SQL queries for data creation, retrieval, updating, and business reporting",
-      "Analyzed business processes and proposed systems solutions evaluating requirements and stakeholders",
-      "Researched enterprise systems (ERP/CRM), data analytics trends, and IT infrastructure (cloud vs on-premise)",
-      "Applied MIS principles to align IT capabilities with business objectives for efficiency and innovation",
-    ],
-    tech: "SQL, Database Design, Systems Analysis, Business Process Modeling, ERD",
-  },
-  {
-    title: "Front End Developer",
+    title: "Front End Project",
     company: "Movie Search & Rating App (React.js + API)",
+    workType: "Personal Project",
     period: "Aug 2024 - Dec 2024",
     description: [
       "Built movie search application using usePopcorn API to fetch real-time movie data",
@@ -87,20 +97,6 @@ const experiences = [
       "Used React hooks for efficient state management and API handling",
     ],
     tech: "React, API Integration, Tailwind CSS, State Management",
-  },
-  {
-    title: "Laravel Developer",
-    company: "Personal Project: MIS for Undergraduate Students",
-    period: "Jun 2024 - Jul 2024",
-    description: [
-      "Built role-based MIS system in Laravel for students, teachers, and administrators",
-      "Implemented secure student-teacher assignment workflow for monograph supervision",
-      "Developed teacher dashboard for reviewing, accepting, or rejecting submissions with feedback",
-      "Created admin panel for managing users, monographs, and system settings",
-      "Integrated authentication, access control, and file upload handling for PDF monographs",
-      "Designed clean MySQL database structure for efficient querying and reporting",
-    ],
-    tech: "Laravel, MySQL, Authentication, File Upload, Role-Based Access",
   },
 ];
 
@@ -137,8 +133,14 @@ function ExperienceCard({ exp }) {
         <div>
           <h3 className="text-xl font-semibold">{exp.title}</h3>
           <Link to={exp.link || "#"}>
-            <p className="text-sm text-gray-100 mt-1 hover:text-cyan-400 hover:underline">
+            {/* <p className="text-sm text-gray-100 mt-1 hover:text-cyan-400 hover:underline">
               {exp.company} {exp.period && `| ${exp.period}`}
+            </p> */}
+            <p className="text-sm text-gray-100 mt-1 hover:text-cyan-400 hover:underline">
+              {exp.company}
+              {exp.workType && ` | ${exp.workType}`}
+              {exp.location && ` | ${exp.location}`}
+              {exp.period && ` | ${exp.period}`}
             </p>
           </Link>
         </div>

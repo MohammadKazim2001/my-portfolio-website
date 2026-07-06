@@ -24,9 +24,12 @@ function Hero() {
             </div>
           </div>
 
-          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-8">
+          {/* <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-8">
             Building Scalable Modern Websites, Creating fast, and user-friendly
             web solutions.
+          </h2> */}
+          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8">
+            Front-End Engineer crafting modern interfaces and automated testing solutions.
           </h2>
           <div className="flex items-center gap-3">
             <ButtonPrimary

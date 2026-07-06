@@ -57,7 +57,27 @@ const skillItem = [
   //   label: "NodeJS",
   //   desc: "Web Server",
   // },
+  // {
+  //   imgSrc: "/images/expressjs.svg",
+  //   label: "ExpressJS",
+  //   desc: "Node Framework",
+  // },
+  // {
+  //   imgSrc: "/images/nodejs.svg",
+  //   label: "NodeJS",
+  //   desc: "Web Server",
+  // },
+  // {
+  //   imgSrc: "/images/mongodb.svg",
+  //   label: "MongoDB",
+  //   desc: "Database",
+  // },
 
+  {
+    imgSrc: "/images/python-svgrepo-com.svg",
+    label: "Python",
+    desc: "Programming Language",
+  },
   {
     imgSrc: "/images/react.svg",
     label: "React JS",
@@ -69,7 +89,7 @@ const skillItem = [
     desc: "Express JS Framework",
   },
   {
-    imgSrc: "/images/Typescript.svg",
+    imgSrc: "/images/typescript-svgrepo-com.svg",
     label: "TypeScript",
     desc: "Typed JavaScript",
   },
@@ -78,22 +98,6 @@ const skillItem = [
     label: "JavaScript",
     desc: "Interaction",
   },
-  {
-    imgSrc: "/images/expressjs.svg",
-    label: "ExpressJS",
-    desc: "Node Framework",
-  },
-  {
-    imgSrc: "/images/nodejs.svg",
-    label: "NodeJS",
-    desc: "Web Server",
-  },
-  {
-    imgSrc: "/images/mongodb.svg",
-    label: "MongoDB",
-    desc: "Database",
-  },
-
   {
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
