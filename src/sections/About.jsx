@@ -32,7 +32,7 @@ function About() {
           </p> */}
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-lg md:max-w-[60ch]">
             Welcome! I&apos;m{" "}
-            <span className="text-sky-500">Mohammad Kazim Amiri</span>, a Front End &
+            <span className="text-sky-500">Mohammad Kazim Amiri</span>, a Full Stack &
             Automation Engineer with experience building modern, responsive web
             applications using React.js, TypeScript, and Tailwind CSS, while developing
             reliable end-to-end automation tests with Python, Playwright, and Pytest. I
